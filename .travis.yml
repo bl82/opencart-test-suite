@@ -3,7 +3,7 @@ php:
   - 7.0
   - 7.1
   - nightly
-dist: xenial
+dist: trusty
 services:
   - mysql
 install:
