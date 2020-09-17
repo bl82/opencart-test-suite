@@ -16,13 +16,13 @@ The intend of this project is to provide a simple approach for setting up a test
 ## Getting started from scratch
 
  - Create a new OpenCart instance (maybe follow this [guide](https://medium.com/@stefan.huber/installing-opencart-with-composer-74fe0ba121b1))
- - Add `opencart-test-suite` as a dependency `composer require beyondit/opencart-test-suite --dev`
- - Use `composer require beyondit/opencart-test-suite:3.0 --dev` for OpenCart version 3.0 respectively
+ - Add `opencart-test-suite` as a dependency `composer require bl82/opencart-test-suite --dev`
+ - Use `composer require bl82/opencart-test-suite:3.0 --dev` for OpenCart version 3.0 respectively
  - Create a `tests` folder and add respective tests (see examples below)
  - Add a `phpunit.xml` which includes testsuites (e.g. admin and catalog) and set an env variable to the opencart root directory (see example phpunit.xml below)
  - Now tests can be run via `vendor/bin/phpunit --testsuite catalog-tests` command
 
-__Our [OpenCart project template](https://github.com/beyondit/opencart-project-template) might simplify setup for you.__
+__Our [OpenCart project template](https://github.com/bl82/opencart-project-template) might simplify setup for you.__
 
 ## Example of a phpunit.xml
 
