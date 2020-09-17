@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/beyondit/opencart-test-suite.svg?branch=master)](https://travis-ci.org/beyondit/opencart-test-suite)
+[![Build Status](https://travis-ci.org/bl82/opencart-test-suite.svg?branch=master)](https://travis-ci.org/bl82/opencart-test-suite)
 
 # OpenCart Testing Suite
 
@@ -6,9 +6,9 @@
 
 | OpenCart version | opencart-test-suite version |build status|
 |---|---|---|
-| ~3.0   | ~3.0   | [![Build Status](https://travis-ci.org/beyondit/opencart-test-suite.svg?branch=3.0)](https://travis-ci.org/beyondit/opencart-test-suite) |
-| ~2.2.0 | ~2.2.0 | [![Build Status](https://travis-ci.org/beyondit/opencart-test-suite.svg?branch=2.2)](https://travis-ci.org/beyondit/opencart-test-suite) |
-| ~2.3.0 | ~2.3.0 | [![Build Status](https://travis-ci.org/beyondit/opencart-test-suite.svg?branch=2.3)](https://travis-ci.org/beyondit/opencart-test-suite) |
+| ~3.0   | ~3.0   | [![Build Status](https://travis-ci.org/bl82/opencart-test-suite.svg?branch=3.0)](https://travis-ci.org/bl82/opencart-test-suite) |
+| ~2.2.0 | ~2.2.0 | [![Build Status](https://travis-ci.org/bl82/opencart-test-suite.svg?branch=2.2)](https://travis-ci.org/bl82/opencart-test-suite) |
+| ~2.3.0 | ~2.3.0 | [![Build Status](https://travis-ci.org/bl82/opencart-test-suite.svg?branch=2.3)](https://travis-ci.org/bl82/opencart-test-suite) |
 
 ## Motivation
 The intend of this project is to provide a simple approach for setting up a test suite for custom OpenCart development. 
