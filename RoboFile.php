@@ -55,6 +55,11 @@ class RoboFile extends \Robo\Tasks
         ob_end_clean();
 
         $this->taskDeleteDir('www/install')->run();
+        $this->taskFileSystemStack()
+            ->ls('www')
+            ->copy('www/config-dist.php', 'www/config.php')
+            ->chmod('www', 0777, 0000, true)
+            ->run();
     }
 
 }
