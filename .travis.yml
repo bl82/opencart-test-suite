@@ -2,6 +2,8 @@ language: php
 php:
   - 7.3
 dist: trusty
+os:
+  - linux
 services:
   - mysql
 install:
